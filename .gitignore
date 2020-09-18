@@ -1,0 +1,27 @@
+HELP.md
+
+#Gradle files
+.gradle
+/gradle/
+/build/
+
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+# Compiled class files
+*.class
+
+# Package Files
+*.war
+*.jar
+*.tar.gz
+*.zip
+*.nar
+*.ear
+
+
