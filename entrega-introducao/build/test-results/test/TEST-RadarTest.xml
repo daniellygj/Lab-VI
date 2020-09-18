@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RadarTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-17T22:08:51" hostname="daniellygj-Inspiron-7560" time="0.004">
+  <properties/>
+  <testcase name="hasSpeedInfraction_test" classname="RadarTest" time="0.002"/>
+  <testcase name="hasNoSpeedInfraction_test" classname="RadarTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
