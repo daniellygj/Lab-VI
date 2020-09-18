@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RadarTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-17T22:08:51" hostname="daniellygj-Inspiron-7560" time="0.004">
+<testsuite name="RadarTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-18T23:47:40" hostname="daniellygj-Inspiron-7560" time="0.143">
   <properties/>
-  <testcase name="hasSpeedInfraction_test" classname="RadarTest" time="0.002"/>
+  <testcase name="hasSpeedInfraction_test" classname="RadarTest" time="0.141"/>
   <testcase name="hasNoSpeedInfraction_test" classname="RadarTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[The vehicle has exceeded the speed limit
+{
+  "plate" : "123456",
+  "speed" : 120,
+  "allowedSpeed" : 100
+}
+{
+  "plate" : "123456",
+  "speed" : 80,
+  "allowedSpeed" : 100
+}
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

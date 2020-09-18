@@ -1,0 +1,11 @@
+)The vehicle has exceeded the speed limit
+{
+  "plate" : "123456",
+  "speed" : 120,
+  "allowedSpeed" : 100
+}
+{
+  "plate" : "123456",
+  "speed" : 80,
+  "allowedSpeed" : 100
+}
