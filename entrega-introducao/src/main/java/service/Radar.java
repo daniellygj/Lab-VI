@@ -1,6 +1,8 @@
 package service;
 
+import Model.Detection;
+
 public interface Radar {
 
-    Boolean checkSpeed(int allowedSpeed, int vehicleSpeed);
+    Boolean checkSpeed(Detection detection);
 }
