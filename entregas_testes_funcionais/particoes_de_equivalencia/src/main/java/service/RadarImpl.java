@@ -9,10 +9,13 @@ import java.util.regex.Pattern;
 public class RadarImpl implements Radar {
 
     public Boolean checkInfraction(Detection detection) throws IOException {
-        return false;
+        return detection.getSpeed() > detection.getAllowedSpeed();
     }
 
     public Boolean checkPlate(String plate) {
-        return false;
+        Pattern pattern = Pattern.compile("[A-Z]{3}-[0-9]{4}");
+        Matcher matcher = pattern.matcher(plate);
+
+        return matcher.matches();
     }
 }
