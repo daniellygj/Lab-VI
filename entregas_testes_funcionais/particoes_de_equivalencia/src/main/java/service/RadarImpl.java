@@ -8,8 +8,18 @@ import java.util.regex.Pattern;
 
 public class RadarImpl implements Radar {
 
-    public Boolean checkInfraction(Detection detection) throws IOException {
-        return detection.getSpeed() > detection.getAllowedSpeed();
+    public Boolean checkInfraction(Detection detection) {
+        if (checkPlate(detection.getPlate())) {
+            boolean hasInfraction = detection.getSpeed() > detection.getAllowedSpeed();
+
+            if (hasInfraction) {
+                System.out.println("The vehicle has exceeded the speed limit");
+            }
+
+            return hasInfraction;
+        }
+        System.out.println("The vehicle license plate is invalid");
+        return false;
     }
 
     public Boolean checkPlate(String plate) {
