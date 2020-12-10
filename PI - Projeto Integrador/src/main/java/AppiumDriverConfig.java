@@ -10,7 +10,7 @@ import java.net.URL;
 public class AppiumDriverConfig {
 
     public final AppiumDriver driver;
-    public final String APK_PATH = "/home/daniellygj/Documents/PI_testes/src/main/resources/vantec(entrega3).apk";
+    public final String APK_PATH = "/home/daniellygj/Documents/git/Lab-VI/PI - Projeto Integrador/src/main/resources/vantec(entrega3).apk";
 
     public AppiumDriverConfig() throws MalformedURLException {
         File apk = new File(APK_PATH);
